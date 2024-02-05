@@ -1,0 +1,16 @@
+name: Run CogniCrypt static analysis
+
+on: push
+jobs:
+  cognicrypt:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+      - name: Compile CamBech Cap
+        run: CamBench_Cap/gradlew -p CamBench_Cap jar
+      - name: Run CogniCrypt
+        uses: CROSSINGTUD/CryptoAnalysis@3.0.3
+        with:
+          appPath: "CamBench_Cap/build/libs/CamBench_Cap.jar"
+          basePath: "CamBench_Cap/src/main/java"
