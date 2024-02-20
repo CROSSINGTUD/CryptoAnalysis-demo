@@ -28,7 +28,7 @@ public class SmallKeySize2 {
         Cipher cipher = Cipher.getInstance("RSA");
 
         KeyPairGenerator keyGen = KeyPairGenerator.getInstance("RSA");
-        keyGen.initialize(513);
+        keyGen.initialize(512);
         KeyPair keyPair = keyGen.generateKeyPair();
 
         cipher.init(Cipher.ENCRYPT_MODE,keyPair.getPublic());
