@@ -10,7 +10,7 @@ jobs:
       - name: Compile CamBech Cap
         run: CamBench_Cap/gradlew -p CamBench_Cap jar
       - name: Run CogniCrypt
-        uses: CROSSINGTUD/CryptoAnalysis@3.2.0
+        uses: CROSSINGTUD/CryptoAnalysis@3.2.1
         with:
           appPath: "CamBench_Cap/build/libs/CamBench_Cap.jar"
           basePath: "CamBench_Cap/src/main/java"
