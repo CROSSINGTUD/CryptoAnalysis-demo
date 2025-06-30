@@ -1,7 +1,7 @@
 # Demo for the github Action of CryptoAnalysis - executed on CamBench
 This repository is a demo on how to integrate the on github Action of [CryptoAnalysis](https://github.com/CROSSINGTUD/CryptoAnalysis) into a reposity.
 This demo is performed on [CamBench](https://github.com/CROSSINGTUD/CamBench) as it provides labeled examples of cryptographic API misuses and correct usages in [CamBench_Cap](https://github.com/CROSSINGTUD/CamBench/tree/main/CamBench_Cap)
-The github action is configured in [cognicrypt.yml](https://github.com/CROSSINGTUD/CryptoAnalysis-demo/blob/main/.github/workflows/cognicrypt.yml) and executed in [pull requests](https://github.com/CROSSINGTUD/CryptoAnalysis-demo/pull/1). More detailed results can be seen in the [workflow's summary](https://github.com/CROSSINGTUD/CryptoAnalysis-demo/actions/runs/14669181128).
+The github action is configured in [cognicrypt.yml](https://github.com/CROSSINGTUD/CryptoAnalysis-demo/blob/main/.github/workflows/cognicrypt.yml) and executed in [pull requests](https://github.com/CROSSINGTUD/CryptoAnalysis-demo/pull/7). More detailed results can be seen in the [workflow's summary](https://github.com/CROSSINGTUD/CryptoAnalysis-demo/actions/runs/15974478063/job/45053235443).
 
 
 
